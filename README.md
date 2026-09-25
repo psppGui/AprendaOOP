@@ -1,81 +1,122 @@
-Introdução à Programação Orientada a Objetos com Java
+# AprendaOOP
 
-Este repositório tem como objetivo ensinar os conceitos fundamentais de Programação Orientada a Objetos (POO) utilizando a linguagem Java, de forma simples, prática e didática.
+Material didático para aprender **Programação Orientada a Objetos (POO) com Java** através de exemplos práticos e progressivos.
 
-Sobre
+A ideia deste repositório é aprender POO entendendo primeiro o problema e depois utilizando os conceitos da orientação a objetos para organizar o código.
 
-A proposta deste material é ajudar iniciantes a entenderem não apenas a sintaxe, mas principalmente o paradigma da orientação a objetos, utilizando exemplos do mundo real para facilitar a compreensão.
+## Proposta
 
-Por que aprender POO?
+Em vez de apresentar apenas exemplos isolados de sintaxe, o projeto acompanha a evolução de um pequeno sistema.
 
-A Programação Orientada a Objetos é um dos paradigmas mais utilizados no desenvolvimento de software moderno. Ela permite criar sistemas mais organizados, reutilizáveis e fáceis de manter.
+O exemplo principal será uma **loja de bolos**, onde o código evolui conforme novos conceitos de POO são apresentados.
 
-No entanto, antes de aprender a escrever código, é importante entender o problema que a POO resolve.
+```text
+Problema
+   ↓
+Programação procedural
+   ↓
+Classes e objetos
+   ↓
+Atributos e métodos
+   ↓
+Encapsulamento
+   ↓
+Construtores
+   ↓
+Herança
+   ↓
+Polimorfismo
+   ↓
+Desafio
+```
 
-Exemplo prático
+## Conteúdo
 
-Imagine que você é dono de uma oficina mecânica chamada "Mecânica Automotiva Peças".
+| Etapa | Conceito               |
+| ----- | ---------------------- |
+| 01    | Introdução             |
+| 02    | Programação procedural |
+| 03    | Classes e objetos      |
+| 04    | Atributos e métodos    |
+| 05    | Encapsulamento         |
+| 06    | Construtores           |
+| 07    | Herança                |
+| 08    | Polimorfismo           |
+| 09    | Desafio                |
 
-Com o crescimento do negócio, surge um problema: a alta demanda de clientes.
+## Exemplo utilizado
 
-Para cada cliente, é necessário registrar:
+Durante o material, vamos imaginar uma pequena loja de bolos.
 
-Nome
+Um bolo possui informações como:
 
-CPF
+```text
+Sabor
+Preço
+Tamanho
+```
 
-Carro (modelo e ano)
+Conforme o sistema cresce, novos comportamentos e regras aparecem.
 
-Se isso for feito de forma procedural, você precisará repetir esse processo manualmente para cada novo cliente, o que torna o sistema cansativo, repetitivo e difícil de manter.
+A partir desse problema, os conceitos de POO são introduzidos de maneira gradual.
 
-A Programação Orientada a Objetos resolve esse problema através da criação de modelos reutilizáveis, chamados de classes.
+## Objetivo
 
-O que você vai aprender
+Ao final do material, você deverá ser capaz de:
 
-Neste repositório, você encontrará:
+* Entender o que é Programação Orientada a Objetos
+* Diferenciar programação procedural e orientação a objetos
+* Criar classes e objetos
+* Trabalhar com atributos e métodos
+* Entender encapsulamento
+* Utilizar construtores
+* Compreender herança
+* Compreender polimorfismo
+* Aplicar esses conceitos em pequenos sistemas Java
 
-Conceitos básicos de Programação Orientada a Objetos
+## Como estudar
 
-Diferença entre programação procedural e orientada a objetos
+Recomenda-se seguir as etapas na ordem.
 
-Criação de classes e objetos
+Em cada etapa:
 
-Uso de atributos e métodos
+1. Leia a explicação.
+2. Analise o código.
+3. Execute o exemplo.
+4. Faça pequenas alterações.
+5. Tente resolver o desafio antes de avançar.
 
-Encapsulamento (private, getters e setters)
+O objetivo não é apenas copiar o código, mas entender por que cada conceito está sendo utilizado.
 
-Introdução à herança e polimorfismo
+## Estrutura
 
-Estrutura do projeto
+```text
+AprendaOOP/
+├── README.md
+├── 01-introducao/
+├── 02-procedural/
+├── 03-classes-e-objetos/
+├── 04-atributos-e-metodos/
+├── 05-encapsulamento/
+├── 06-construtores/
+├── 07-heranca/
+├── 08-polimorfismo/
+└── 09-desafio/
+```
 
-O conteúdo está organizado de forma progressiva, começando pelos conceitos mais simples e avançando gradualmente para tópicos mais complexos.
+## Tecnologia
 
-Importante
+* Java
+* Programação Orientada a Objetos
 
-O que define um bom programa não é o paradigma utilizado, mas sim sua qualidade, clareza e simplicidade.
+## Status
 
-Este projeto segue o princípio KISS:
+Em desenvolvimento.
 
-Keep It Simple, Stupid.
+Novas etapas e exemplos serão adicionados conforme o conteúdo evolui.
 
-Objetivo
-
-Ao final deste material, você será capaz de:
-
-Entender o paradigma da orientação a objetos
-
-Aplicar os conceitos em Java
-
-Criar pequenos sistemas utilizando boas práticas
-
-Contribuição
-
-Sinta-se à vontade para estudar, adaptar e melhorar este material.
-
-Autor
+## Autor
 
 Guilherme da Silva
 
-Sobre:
-O código vai ter versão, em cada uma delas vou implemetendo novas coisas,
-vai começar da versão 0.0.1
+GitHub: [psppGui](https://github.com/psppGui)
